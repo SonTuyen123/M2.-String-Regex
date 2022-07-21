@@ -13,7 +13,7 @@ function demo() {
         console.log('đúng');
     }
     else if (count == 2) {
-        console.log(`bạn đã nhập quá ${count} lần mời bạn chạy lại ct`);
+      throw new Error(`bạn đã nhập quá ${count} lần mời bạn chạy lại ct`);
     } else if (count < 3) {
         count++;
         console.log('nhập sai mời nhập lại');
