@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var RegexStudent_1 = require("./RegexStudent");
+var RegExpStudent = new RegexStudent_1.RexgexStudent();
+var c = 'C0318G';
+var a = 'M0318G';
+var b = 'P0323A';
+console.log(RegExpStudent.Validate(c));
+console.log(RegExpStudent.Validate(b));
+console.log(RegExpStudent.Validate(a));
